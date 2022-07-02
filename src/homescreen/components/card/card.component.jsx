@@ -12,11 +12,12 @@ const Card = ({
   cardTitle,
   cardSubTitle,
   cardText,
+  bgColor,
 }) => {
   return (
     <>
       <div className="container p-0 m-0">
-        <div className="card ma-card m-4">
+        <div className="card ma-card m-4" style={{ backgroundColor: bgColor }}>
           <div className="card-body">
             <h5 className="card-title"> {cardTitle} </h5>
             <h6 className="card-subtitle mb-2 ">{cardSubTitle}</h6>
@@ -41,6 +42,7 @@ const SocialCard = ({
     "LinkedIn" |
     "GitHub",
   cardText,
+  bgColor,
 }) => {
   let icon;
   let url = "https://www.instagram.com/maxaryus/";
@@ -82,7 +84,7 @@ const SocialCard = ({
   return (
     <>
       <div className="container p-0 m-0">
-        <div className="card ma-card m-4">
+        <div className="card ma-card m-4" style={{ backgroundColor: bgColor }}>
           <center className="pt-3" button onClick={() => openInNewTab(url)}>
             {icon}
             <p className="p-2">{cardText}</p>

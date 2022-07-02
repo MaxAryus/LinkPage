@@ -15,6 +15,12 @@ const Homescreen = () => {
     "Zusammen mit meinem Team entickle ich Ihere Onlinepräsenzu und Optimieren diese, um Sie von Ihrer Konkurenz abzugrenzen. \n Dies verschafft Ihnen mehr Kunden";
   const homepageCardLinkText = "Schau vorbei";
 
+  const appStoreCardTitle = "App Store Preview Bilder";
+  const appStoreCardText =
+    "Du hast eine App entwicklt und möchtet diese veröffentlichen? Dann Musst du nurnoch Bilder für den App Store erstellen. Um diese optisch von anderen App Store Bilder abzuhaben, haben wir 5 Templates für dich erstellt. ";
+  const appStoreCardLinkText = "Jetzt Starten";
+  const appStoreCardLink = "https://maxaryus.gumroad.com/l/eddvp";
+
   return (
     <div className="container-fluid p-0 m-0">
       <Hero />
@@ -25,10 +31,24 @@ const Homescreen = () => {
         cardSubTitle={homepageCardSubTitle}
         cardText={homepageCardText}
         cardLinkText={homepageCardLinkText}
+        bgColor={"#C4DFAA"}
       />
       <SocialCard
         socialMedia={"Twitter"}
         cardText={"Schau doch gerne auf Twitter vorbei @aryus_max"}
+        bgColor={"#3AB0FF"}
+      />
+      <Card
+        cardLink={appStoreCardLink}
+        cardTitle={appStoreCardTitle}
+        cardText={appStoreCardText}
+        cardLinkText={appStoreCardLinkText}
+        bgColor={"#FF7396"}
+      />
+      <SocialCard
+        socialMedia={"Instagram"}
+        cardText={"Schau doch gerne auf Instagram vorbei @max_aryus"}
+        bgColor={"#FFC898"}
       />
     </div>
   );
