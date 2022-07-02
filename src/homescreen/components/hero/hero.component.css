@@ -1,0 +1,7 @@
+#hero {
+    height: 12vh;
+    width: 100%;
+    background-color: #CDF2CA;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
