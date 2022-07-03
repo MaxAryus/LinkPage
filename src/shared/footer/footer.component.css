@@ -1,0 +1,5 @@
+.footer-copyright p a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+}

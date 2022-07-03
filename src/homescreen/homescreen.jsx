@@ -6,7 +6,7 @@ import Hero from "./components/hero/hero.component";
 
 const Homescreen = () => {
   const title = "Schnell Überblick";
-  const subtext = "Besuche die neusten und interessantesten Links";
+  const subtext = "Besuche die neusten Links";
 
   const homepageCardLink = "https://a-sites.de";
   const homepageCardTitle = "Webdesig, SEO und Social Media";
@@ -17,7 +17,7 @@ const Homescreen = () => {
 
   const appStoreCardTitle = "App Store Preview Bilder";
   const appStoreCardText =
-    "Du hast eine App entwicklt und möchtet diese veröffentlichen? Dann Musst du nurnoch Bilder für den App Store erstellen. Um diese optisch von anderen App Store Bilder abzuhaben, haben wir 5 Templates für dich erstellt. ";
+    "Du hast eine App entwickelt und möchtet diese veröffentlichen? Dann musst du nur noch Bilder für den App Store erstellen. Um diese optisch von anderen App Store Bilder abzuheben, haben wir 5 Templates für dich erstellt.";
   const appStoreCardLinkText = "Jetzt Starten";
   const appStoreCardLink = "https://maxaryus.gumroad.com/l/eddvp";
 
