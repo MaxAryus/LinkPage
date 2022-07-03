@@ -19,8 +19,8 @@ const Card = ({
       <div className="container p-0 m-0">
         <div className="card ma-card m-4" style={{ backgroundColor: bgColor }}>
           <div className="card-body">
-            <h5 className="card-title"> {cardTitle} </h5>
-            <h6 className="card-subtitle mb-2 ">{cardSubTitle}</h6>
+            <h5 className="card-title mb-2 fw-bold"> {cardTitle} </h5>
+            <h6 className="card-subtitle my-2 ">{cardSubTitle}</h6>
             <p className="card-text">{cardText}</p>
             <a href={cardLink} className="card-link">
               {cardLinkText}
