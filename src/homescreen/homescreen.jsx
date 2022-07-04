@@ -19,7 +19,8 @@ const Homescreen = () => {
   const appStoreCardText =
     "Du hast eine App entwickelt und möchtet diese veröffentlichen? Dann musst du nur noch Bilder für den App Store erstellen. Um diese optisch von anderen App Store Bilder abzuheben, haben wir 5 Templates für dich erstellt.";
   const appStoreCardLinkText = "Jetzt Starten";
-  const appStoreCardLink = "https://maxaryus.gumroad.com/l/eddvp";
+  const appStoreCardLink =
+    "https://maxaryus.gumroad.com/l/appstore-vorschau-bilder";
 
   return (
     <div className="container-fluid p-0 m-0">
